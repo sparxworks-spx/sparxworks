@@ -1,6 +1,9 @@
 {
   "name": "@sparxworks/components",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "module": "index.js",
-  "gitHead": "883dacf6ec9130202586a11ad19336fe2bb69a42"
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "3ce661be7f430429ed112a3703d938191ca2dc0a"
 }
