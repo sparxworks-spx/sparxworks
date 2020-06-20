@@ -1,6 +1,5 @@
 {
   "name": "root",
-  "private": true,
   "devDependencies": {
     "@babel/core": "^7.10.3",
     "@storybook/addon-actions": "^5.2.5",
