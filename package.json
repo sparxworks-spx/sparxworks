@@ -1,5 +1,8 @@
 {
   "name": "root",
+  "private": true,
+  "version": "0.0.4",
+  "workspaces": ["packages/*"],
   "devDependencies": {
     "@babel/core": "^7.10.3",
     "@storybook/addon-actions": "^5.2.5",
@@ -15,15 +18,11 @@
   "dependencies": {
     "vue": "^2.6.11"
   },
-  "publishConfig": {
-    "access": "public"
-  },
   "scripts": {
     "start": "NODE_ENV=development start-storybook -p 9001 -c .storybook",
     "bootstrap": "lerna bootstrap",
     "build": "lerna exec --parallel -- babel src -d dist --ignore spec.js,story.js",
     "build-storybook": "build-storybook",
-    "publish": "lerna publish"
-  },
-  "version": "0.0.4"
+    "publish-all": "lerna publish"
+  }
 }

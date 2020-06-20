@@ -1,9 +1,14 @@
 {
   "name": "@sparxworks/components",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "module": "index.js",
+  "private": false,
   "publishConfig": {
     "access": "public"
+  },
+  "main": "dist/index.common.js",
+  "scripts": {
+    "transpile": "vue-cli-service build --mode production --name index --formats commonjs --target lib ./src/index.js"
   },
   "gitHead": "3ce661be7f430429ed112a3703d938191ca2dc0a"
 }
