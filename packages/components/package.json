@@ -1,14 +1,24 @@
 {
   "name": "@sparxworks/components",
-  "version": "0.0.9",
+  "version": "0.1.0",
+  "description": "Sparxworks components",
+  "author": "Pavel <neo2318@gmail.com>",
+  "homepage": "https://github.com/sparxworks-spx/sparxworks#readme",
+  "main": "dist/index.common.js",
   "module": "index.js",
   "private": false,
   "publishConfig": {
     "access": "public"
   },
-  "main": "dist/index.common.js",
   "scripts": {
-    "transpile": "vue-cli-service build --mode production --name index --formats commonjs --target lib ./src/index.js"
+    "transpile": "vue-cli-service build --mode production --name index --formats commonjs --target lib index.js"
   },
-  "gitHead": "3ce661be7f430429ed112a3703d938191ca2dc0a"
+  "gitHead": "3ce661be7f430429ed112a3703d938191ca2dc0a",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sparxworks-spx/sparxworks.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sparxworks-spx/sparxworks/issues"
+  }
 }

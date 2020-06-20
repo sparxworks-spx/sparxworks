@@ -12,6 +12,7 @@
     "babel-loader": "^8.1.0",
     "babel-preset-vue": "^2.0.2",
     "lerna": "^3.22.1",
+    "@vue/cli-service": "~4.2.0",
     "vue-loader": "^15.9.2",
     "vue-template-compiler": "^2.6.11"
   },
