@@ -21,5 +21,6 @@
     "build": "lerna exec --parallel -- babel src -d dist --ignore spec.js,story.js",
     "build-storybook": "build-storybook",
     "publish": "lerna publish"
-  }
+  },
+  "version": "0.0.2"
 }
