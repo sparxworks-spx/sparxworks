@@ -4,7 +4,7 @@
   "description": "Sparxworks Vue Plugin",
   "author": "Pavel <neo2318@gmail.com>",
   "homepage": "https://github.com/sparxworks-spx/sparxworks#readme",
-  "main": "components/dist/index.common.js",
+  "main": "src/dist/index.common.js",
   "private": false,
   "publishConfig": {
     "access": "public"
