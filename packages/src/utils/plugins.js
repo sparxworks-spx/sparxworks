@@ -1,7 +1,6 @@
 export const installFactory = ({components} = {}) => {
     const install = (Vue, config = {}) => {
         if (install.installed) {
-            /* istanbul ignore next */
             return
         }
         install.installed = true
