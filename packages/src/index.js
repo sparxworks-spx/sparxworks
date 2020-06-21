@@ -4,7 +4,7 @@ import {installFactory} from "./utils/plugins";
 const NAME = 'SparxworksVue'
 
 const install = installFactory({
-    plugins: {
+    components: {
         componentsPlugin,
     }
 })
